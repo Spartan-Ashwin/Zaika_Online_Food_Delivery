@@ -1,0 +1,183 @@
+﻿@inject IHttpContextAccessor accessor
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Zayka</title>
+    <link rel="icon" type="image/x-icon" href="~/images/favicon.png"/> 
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ZaykaMvc.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Myfooter.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/navbar.css" asp-append-version="true" />
+
+</head>
+<body>
+    @if (accessor.HttpContext.Session.GetString("username") != null)
+    {
+   
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand me-auto" href="#">Logo</a> -->
+                <img src="~/images/logo.png" style="width: 100px; height: 40px;" alt="">
+
+                <div class="offcanvas offcanvas-end"
+                     tabindex="-1"
+                     id="offcanvasNavbar"
+                     aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Log Out</h5>
+                        <button type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-lg-2 mrzi" style="color:white" aria-current="page" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 mrzi" style="color:white" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2 mrzi" style="color:white" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="login-button" style="color:white">Hello @accessor.HttpContext.Session.GetString("username")</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="login-button" asp-area="" asp-controller="User" asp-action="LogOut">Log Out</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+
+
+    }
+    @if (accessor.HttpContext.Session.GetString("admin") != null)
+    {
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand me-auto" href="#">Logo</a> -->
+                <img src="~/images/logo.png" style="width: 100px; height: 40px;" alt="">
+
+                <div class="offcanvas offcanvas-end"
+                     tabindex="-1"
+                     id="offcanvasNavbar"
+                     aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Log Out</h5>
+                        <button type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-lg-2" aria-current="page" asp-area="" asp-controller="Admin" asp-action="AllDish">All Dish</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" asp-area="" asp-controller="Admin" asp-action="AddDish">Add Dish</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-2" asp-controller="Admin" asp-action="AllOrders">All Orders</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a class="login-button" asp-area="" asp-controller="Admin" asp-action="LogOut">Log Out</a>
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    }
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @if (accessor.HttpContext.Session.GetString("username") != null)
+    {
+        <footer>
+
+            <div class="foot-pannel-1">Back to Top</div>
+
+            <div class="foot-pannel-2">
+                <ul>
+                    <p>Get to Know Us</p>
+                    <a href="#">Careers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Zaika</a>
+                    <a href="#">Investor Relations</a>
+                </ul>
+
+                <ul>
+                    <p>Make Money with Us</p>
+                    <a href="#">Sell food on Zaika</a>
+                    <a href="#">Sell on Zaika Business</a>
+                    <a href="#">Become an Affiliate</a>
+                    <a href="#">Advertise Your Products</a>
+                    <a href="#">Self-Publish with Us</a>
+                    <a href="#">›See More Make Money with Us</a>
+
+                </ul>
+
+                <ul>
+                    <p>Zaika Payment Products</p>
+                    <a href="#">Zaika Business Card</a>
+                    <a href="#">Shop with Points</a>
+                    <a href="#">Reload Your Balance</a>
+                    <a href="#">Zaika Currency Converter</a>
+                </ul>
+
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a href="#">Your Account</a>
+                    <a href="#">Your Orders</a>
+                    <a href="#">Shipping Rates & Policies</a>
+                    <a href="#">Returns & Replacements</a>
+                    <a href="#">Manage Your Content and Devices</a>
+                    <a href="#">Zaika Assistant</a>
+                    <a href="#">Help</a>
+                </ul>
+            </div>
+
+            <div class="foot-pannel-3">
+                Made with ❤️ Zaika Team 
+            </div>
+        </footer>
+    }
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+

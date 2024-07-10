@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/obj/Debug/net7.0/scopedcss/projectbundle/ZaykaMvc.bundle.scp.css",
+      "PackagePath": "staticwebassets/ZaykaMvc.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/css/Myfooter.css",
+      "PackagePath": "staticwebassets/css/Myfooter.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/css/mycart.css",
+      "PackagePath": "staticwebassets/css/mycart.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/css/navbar.css",
+      "PackagePath": "staticwebassets/css/navbar.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/css/signup.css",
+      "PackagePath": "staticwebassets/css/signup.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240708230314681.jpg",
+      "PackagePath": "staticwebassets/images/20240708230314681.jpg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240709010438671.webp",
+      "PackagePath": "staticwebassets/images/20240709010438671.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240709011815992.jpg",
+      "PackagePath": "staticwebassets/images/20240709011815992.jpg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710001553179.webp",
+      "PackagePath": "staticwebassets/images/20240710001553179.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710001628273.jpg",
+      "PackagePath": "staticwebassets/images/20240710001628273.jpg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710001650303.webp",
+      "PackagePath": "staticwebassets/images/20240710001650303.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710001712784.webp",
+      "PackagePath": "staticwebassets/images/20240710001712784.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710001752212.jpg",
+      "PackagePath": "staticwebassets/images/20240710001752212.jpg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710001853847.webp",
+      "PackagePath": "staticwebassets/images/20240710001853847.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710002716142.jpeg",
+      "PackagePath": "staticwebassets/images/20240710002716142.jpeg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710002743492.webp",
+      "PackagePath": "staticwebassets/images/20240710002743492.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710002833026.webp",
+      "PackagePath": "staticwebassets/images/20240710002833026.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710002925770.jpeg",
+      "PackagePath": "staticwebassets/images/20240710002925770.jpeg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710002953925.webp",
+      "PackagePath": "staticwebassets/images/20240710002953925.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710003049111.jpeg",
+      "PackagePath": "staticwebassets/images/20240710003049111.jpeg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710003313598.webp",
+      "PackagePath": "staticwebassets/images/20240710003313598.webp"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/20240710161247741.jpeg",
+      "PackagePath": "staticwebassets/images/20240710161247741.jpeg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/favicon.png",
+      "PackagePath": "staticwebassets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/gulabjamun.jpeg",
+      "PackagePath": "staticwebassets/images/gulabjamun.jpeg"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/images/order.png",
+      "PackagePath": "staticwebassets/images/order.png"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.ZaykaMvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.ZaykaMvc.props",
+      "PackagePath": "build\\ZaykaMvc.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.ZaykaMvc.props",
+      "PackagePath": "buildMultiTargeting\\ZaykaMvc.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.ZaykaMvc.props",
+      "PackagePath": "buildTransitive\\ZaykaMvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

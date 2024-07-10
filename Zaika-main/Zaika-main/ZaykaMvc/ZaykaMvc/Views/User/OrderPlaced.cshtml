@@ -1,0 +1,54 @@
+﻿
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Rubik", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .order {
+            margin-top: 200px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+         
+            flex-direction: column;
+        }
+
+        body {
+            background-image: url('@Url.Content("~/images/order.png")');
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+            z-index: -1;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="img">
+    <div class="order">
+        @if (ViewBag.totalbill != null)
+        {
+            <h1> Order Placed Succesfully </h1>
+            <h1>ThankYou for ordering!!</h1>
+
+            <h1>Your Order is on the way!!</h1>
+
+            <h1>Please be ready with the money</h1>
+            <h1>Your total bill is : @ViewBag.totalbill</h1>
+        }
+    </div>
+    </div>
+</body>
+

@@ -1,0 +1,133 @@
+﻿@model ZaykaMvc.Models.Dish
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<head>
+    <style>
+
+        /* General Styles */
+    body {
+    font-family: 'Rubik', sans-serif;
+    background: url('your-background-image-link.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+
+        h1, h3 {
+    text-align: center;
+    color: #333;
+    }
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+dl.row {
+    margin: 0;
+}
+
+dt, dd {
+    display: flex;
+    align-items: center;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    flex: 1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+
+    dt, dd {
+        display: block;
+        text-align: left;
+    }
+
+    .btn {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+
+    </style>
+
+</head>
+
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete Dish?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="AllDish">Back to All Dish</a>
+    </form>
+</div>

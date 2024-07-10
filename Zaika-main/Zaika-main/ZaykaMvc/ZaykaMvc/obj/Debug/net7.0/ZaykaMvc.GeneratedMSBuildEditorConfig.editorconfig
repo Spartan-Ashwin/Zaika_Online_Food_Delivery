@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZaykaMvc
+build_property.RootNamespace = ZaykaMvc
+build_property.ProjectDir = /Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Admin/AddDish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRkRGlzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Admin/AllDish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWxsRGlzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Admin/AllOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWxsT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Admin/DeleteDish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRGVsZXRlRGlzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Admin/EditDish.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vRWRpdERpc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/MyCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9NeUNhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/OrderPlaced.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9PcmRlclBsYWNlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/User/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9TaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ojasjain/Documents/Net_Core/ZaykaMvc/ZaykaMvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1fgmba7a2m

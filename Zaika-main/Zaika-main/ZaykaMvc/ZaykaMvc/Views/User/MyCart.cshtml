@@ -1,0 +1,143 @@
+﻿@*@model HashSet<ZaykaMvc.Models.DishViewModel>
+
+        @{
+            ViewData["Title"] = "My Cart";
+        }
+    @{HashSet<DishViewModel> menu = new HashSet<DishViewModel>(); }
+        <h1>My Cart</h1>
+        <form asp-action="SubmitCart" method="post">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                        <th>
+                            Quantity
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Select((value, index) => new { value, index }))
+                        {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelitem => item.value.Name)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelitem => item.value.Price)
+                            </td>
+                            <td>
+                                <input type="number" id="quantity" name="DishViewModels[@item.index].Quantity" placeholder="Enter Quantity" />
+
+                                <input type="hidden" name="DishViewModels[@item.index].Name" value="@item.value.Name" />
+                                <input type="hidden" name="DishViewModels[@item.index].Price" value="@item.value.Price" />
+                                <input type="submit" value="Add Dish" onclick="submitDish(@item.index)" />
+                            </td>
+                        </tr>
+                        }
+                </tbody>
+            </table>
+            <button type="submit" class="btn btn-success">Place Order</button>
+        </form>
+
+        <script type="text/javascript">
+            function submitDish(index) {
+                var quantity = document.querySelector(`input[name='DishViewModels[${index}].Quantity']`).value;
+                var name = document.querySelector(`input[name='DishViewModels[${index}].Name']`).value;
+                var price = document.querySelector(`input[name='DishViewModels[${index}].Price']`).value;
+                @{DishViewModel dishview = new DishViewModel(); }
+                    @dishview.Quantity = quantity;
+                    @dishview.Price = price;
+                    @dishview.Name = name;
+                @menu.Add(dishview);
+                document.forms[0].submit();  // Assumes the form is the first form on the page
+            }
+
+
+        </script>*@
+
+@model HashSet<ZaykaMvc.Models.DishViewModel>
+
+@{
+    ViewData["Title"] = "My Cart";
+}
+<head>
+    <link rel="stylesheet" href="~/css/mycart.css" asp-append-version="true" />
+</head>
+<h1>My Cart</h1>
+<form asp-action="SubmitCart" method="post" id="cartForm">
+    <legend>My Cart</legend>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="dishbody">
+            @foreach (var item in Model.Select((value, index) => new { value, index }))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelitem => item.value.Price)
+                    </td>
+                    <td>
+                        <input type="number" id="quantity-@item.index" value="1" name="DishViewModels[@item.index].Quantity" placeholder="Enter Quantity" />
+
+                        <input type="hidden" name="DishViewModels[@item.index].Name" value="@item.value.Name" />
+                        <input type="hidden" name="DishViewModels[@item.index].Price" value="@item.value.Price" />
+                        <button type="button" class="menubutton" onclick="addDishToMenu(@item.index)">Add Dish</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="submit" class="btn btn-success">Place Order</button>
+</form>
+
+<script type="text/javascript">
+    let menu = new Set();
+
+    function addDishToMenu(index) {
+
+        menu.forEach((dish) => {
+            if (dish.Index === index) {
+                menu.delete(dish);
+            }
+        });
+
+        let quantity = document.querySelector(`#quantity-${index}`).value;
+        let name = document.querySelector(`input[name='DishViewModels[${index}].Name']`).value;
+        let price = document.querySelector(`input[name='DishViewModels[${index}].Price']`).value;
+
+        let dish = {
+            Index: index,
+            Name: name,
+            Price: parseFloat(price),
+            Quantity: parseInt(quantity)
+        }; 
+        
+        menu.add(dish);
+    }
+
+    document.getElementById("cartForm").onsubmit = function () {
+        let hiddenInput = document.createElement("input");
+        hiddenInput.type = "hidden";
+        hiddenInput.name = "SerializedMenu";
+        hiddenInput.value = JSON.stringify(Array.from(menu));
+        console.log("Hello");
+        console.log(menu);
+        this.appendChild(hiddenInput);
+
+        document.querySelector('#dishbody').innerHTML = "Your Card is Empty";
+    };</script>

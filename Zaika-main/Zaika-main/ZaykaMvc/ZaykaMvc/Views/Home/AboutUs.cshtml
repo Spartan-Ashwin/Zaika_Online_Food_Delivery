@@ -1,0 +1,152 @@
+﻿@{
+    ViewData["Title"] = "About Us";
+}
+<div class="parent">
+    <div class="about-us">
+        <div class="about-header">
+            <h1>About Us</h1>
+            <p>Discover our journey and what makes us special</p>
+        </div>
+
+        <div class="about-content">
+            <section class="about-section">
+                <h2>Our Founders</h2>
+                <p>Apurv Jain,Ashwin Shelke, Gayatri Marathe,Rakesh More, Shubham Thakur</p>
+            </section>
+            <section class="about-section">
+                <h2>Our Story</h2>
+                <p>Founded in 2024, Zayka has come a long way from its humble beginnings in a home kitchen. Our passion for providing fresh and delicious meals drove us to turn our dream into reality. Today, we proudly serve customers all over the city, delivering quality food straight to your door.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>Our Mission</h2>
+                <p>At Zayka, our mission is to offer fresh, healthy, and delectable meals. We strive to ensure every meal is a memorable experience by using top-quality ingredients and maintaining high standards in food preparation.</p>
+            </section>
+
+            <section class="about-section">
+                <h2>Why Choose Us?</h2>
+                <ul>
+                    <li>Wide variety of cuisines</li>
+                    <li>Fresh and high-quality ingredients</li>
+                    <li>Fast and reliable delivery</li>
+                    <li>Exceptional customer service</li>
+                    <li>Competitive prices</li>
+                </ul>
+            </section>
+
+            <section class="about-section">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or comments, please don't hesitate to reach out. We're here to help!</p>
+                <p>Email: <a href="mailto:support@zayka.com">support@zayka.com</a></p>
+                <p>Phone: <a href="tel:1234567890">(123) 456-7890</a></p>
+            </section>
+
+            <section class="about-section">
+                <h2>Follow Us</h2>
+                <p>Stay connected through social media:</p>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/zayka" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.twitter.com/zayka" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/zayka" target="_blank">Instagram</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</div>
+<style>
+    .parent{
+        margin-top:100px;
+    }
+    .about-us {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-header {
+        text-align: center;
+        padding: 20px;
+        background: #007bff;
+        color: #fff;
+        border-radius: 8px 8px 0 0;
+    }
+
+        .about-header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .about-header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+    .about-content {
+        padding: 20px;
+    }
+
+    .about-section {
+        margin-bottom: 20px;
+    }
+
+        .about-section h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        .about-section p {
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .about-section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+            .about-section ul li {
+                background: url('/images/checkmark.png') no-repeat left center;
+                padding-left: 25px;
+                margin-bottom: 10px;
+                color: #555;
+            }
+
+    .social-links {
+        display: flex;
+        gap: 15px;
+    }
+
+        .social-links li {
+            list-style: none;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+            .social-links a:hover {
+                color: #0056b3;
+            }
+
+    .about-section a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .about-section a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+</style>

@@ -1,0 +1,70 @@
+﻿<Properties StartupConfiguration="{A4CB727D-CD06-483C-8466-979A115442BB}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ZaykaMvc PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZaykaMvc/Controllers/AdminController.cs">
+    <Files>
+      <File FileName="ZaykaMvc/Views/Home/Index.cshtml" Line="144" Column="46" />
+      <File FileName="ZaykaMvc/Views/_ViewImports.cshtml" />
+      <File FileName="ZaykaMvc/Views/_ViewStart.cshtml" />
+      <File FileName="ZaykaMvc/Views/Home/Privacy.cshtml" />
+      <File FileName="ZaykaMvc/wwwroot/js/site.js" />
+      <File FileName="ZaykaMvc/wwwroot/css/site.css" />
+      <File FileName="ZaykaMvc/Program.cs" Line="33" Column="4" />
+      <File FileName="ZaykaMvc/appsettings.json" />
+      <File FileName="ZaykaMvc/Controllers/HomeController.cs" Line="25" Column="29" />
+      <File FileName="ZaykaMvc/Models/ErrorViewModel.cs" />
+      <File FileName="ZaykaMvc/Properties/launchSettings.json" />
+      <File FileName="ZaykaMvc/Views/Shared/_Layout.cshtml" Line="62" Column="61" />
+      <File FileName="ZaykaMvc/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="ZaykaMvc/Models/User.cs" Line="36" Column="26" />
+      <File FileName="ZaykaMvc/Models/ZaykaDbContext.cs" Line="12" Column="34" />
+      <File FileName="ZaykaMvc/Controllers/UserController.cs" Line="243" Column="41" />
+      <File FileName="ZaykaMvc/Views/User/SignUp.cshtml" Line="67" Column="1" />
+      <File FileName="ZaykaMvc/Views/User/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ZaykaMvc/Views/User/LogIn.cshtml" />
+      <File FileName="ZaykaMvc/Controllers/AdminController.cs" Line="90" Column="1" />
+      <File FileName="ZaykaMvc/Views/Admin/Login.cshtml" Line="16" Column="36" />
+      <File FileName="ZaykaMvc/wwwroot/css/signup.css" />
+      <File FileName="ZaykaMvc/Models/Dish.cs" Line="11" Column="22" />
+      <File FileName="ZaykaMvc/Models/FakeDish.cs" Line="9" Column="25" />
+      <File FileName="ZaykaMvc/Views/Admin/AddDish.cshtml" Line="30" Column="39" />
+      <File FileName="ZaykaMvc/Views/Admin/EditDish.cshtml" Line="12" Column="35" />
+      <File FileName="ZaykaMvc/Views/User/Edit.cshtml" />
+      <File FileName="ZaykaMvc/Views/User/Delete.cshtml" />
+      <File FileName="ZaykaMvc/Views/Admin/DeleteDish.cshtml" />
+      <File FileName="ZaykaMvc/Models/Order.cs" Line="16" Column="4" />
+      <File FileName="ZaykaMvc/Views/User/MyCart.cshtml" Line="71" Column="29" />
+      <File FileName="ZaykaMvc/Views/User/Details.cshtml" />
+      <File FileName="ZaykaMvc/Models/DishViewModel.cs" Line="18" Column="1" />
+      <File FileName="ZaykaMvc/Views/User/OrderPlaced.cshtml" Line="13" Column="1" />
+      <File FileName="ZaykaMvc/Views/Home/AboutUs.cshtml" />
+      <File FileName="ZaykaMvc/wwwroot/css/Myfooter.css" Line="21" Column="17" />
+      <File FileName="ZaykaMvc/wwwroot/css/navbar.css" Line="60" Column="1" />
+      <File FileName="ZaykaMvc/Views/Admin/AllDish.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ZaykaMvc">
+            <Node name="ZaykaMvc">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+              </Node>
+              <Node name="wwwroot">
+                <Node name="css" expanded="True" />
+                <Node name="images" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

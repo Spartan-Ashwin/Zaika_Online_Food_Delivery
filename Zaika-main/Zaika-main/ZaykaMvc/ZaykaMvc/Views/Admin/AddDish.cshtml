@@ -1,0 +1,167 @@
+﻿@*@model ZaykaMvc.Models.FakeDish
+
+    @{
+        ViewData["Title"] = "AddDish";
+    }
+
+    <h1>Add Dish</h1>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="AddDish" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Quantity" class="control-label"></label>
+                    <input asp-for="Quantity" class="form-control" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageFile" class="control-label"></label>
+                    <input asp-for="ImageFile" class="form-control" />
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+        @if (ViewBag.message != null)
+        {
+            <div>
+                <h5>@ViewBag.message</h5>
+            </div>
+        }
+    </div>
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }*@
+
+@model ZaykaMvc.Models.FakeDish
+
+@{
+    ViewData["Title"] = "AddDish";
+}
+
+<div class="container parent">
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h1 class="text-center mb-4">Add Dish</h1>
+                    <hr />
+                    <form asp-action="AddDish" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Name" class="control-label font-weight-bold"></label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter dish name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Quantity" class="control-label font-weight-bold"></label>
+                            <input asp-for="Quantity" class="form-control" placeholder="Enter quantity" />
+                            <span asp-validation-for="Quantity" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Price" class="control-label font-weight-bold"></label>
+                            <input asp-for="Price" class="form-control" placeholder="Enter price" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ImageFile" class="control-label font-weight-bold"></label>
+                            <input asp-for="ImageFile" class="form-control-file" />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>
+                        </div>
+                        <div class="form-group text-center">
+                            <input type="submit" value="Save" class="btn btn-primary btn-lg btn-block" />
+                        </div>
+                    </form>
+                    @if (ViewBag.message != null)
+                    {
+                        <div class="alert alert-success mt-3 text-center">
+                            <h5>@ViewBag.message</h5>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<style>
+    .parent{
+        margin-top:100px;
+    }
+    body {
+        font-family: 'Rubik', sans-serif;
+        background-color: #f8f9fa;
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+    }
+
+    .form-group label {
+        font-size: 1.1em;
+    }
+
+    .form-control {
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 1em;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+        }
+
+    .form-control-file {
+        padding: 5px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+    .alert {
+        margin-top: 20px;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: none;
+    }
+
+    .card-body {
+        padding: 30px;
+    }
+
+    .shadow-sm {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+</style>

@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "LogIn";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/css/signup.css" />
+</head>
+<body>
+    <div class="container form-container">
+        <div class="form-wrapper">
+            <h5>Admin LogIn</h5>
+            <form asp-action="LogIn" method="post">
+                <div class="form-group">
+                    <label typeof="text" class="control-label">Username</label>
+                    <input type="text" name="Username" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label typeof="Password" class="control-label">Password</label>
+                    <input type="password" name="Password" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="LogIn" class="btn btn-primary" />
+                </div>
+
+            </form>
+            <div>
+                <a asp-controller="User" asp-action="Login">LogIn as a User? Log in</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+

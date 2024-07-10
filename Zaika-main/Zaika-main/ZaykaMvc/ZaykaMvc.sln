@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZaykaMvc", "ZaykaMvc\ZaykaMvc.csproj", "{A4CB727D-CD06-483C-8466-979A115442BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4CB727D-CD06-483C-8466-979A115442BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CB727D-CD06-483C-8466-979A115442BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CB727D-CD06-483C-8466-979A115442BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CB727D-CD06-483C-8466-979A115442BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37B543E7-C80F-4BD9-B644-F4A6E693EEF3}
+	EndGlobalSection
+EndGlobal
